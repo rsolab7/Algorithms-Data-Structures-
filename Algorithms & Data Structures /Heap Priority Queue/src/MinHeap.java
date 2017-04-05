@@ -5,6 +5,8 @@ public class MinHeap {
     private int[] Heap;
     private int size;
     private int maxsize;
+    //Calculate the number of comparisons done by the Heap
+    //This estimates the complexity of the implementation 
     public static int comp;
 
 
